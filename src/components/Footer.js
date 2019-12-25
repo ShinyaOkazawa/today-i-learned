@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import twitter from '../img/social/twitter.svg'
-
 const Footer = class extends React.Component {
   render() {
     return (
@@ -18,11 +14,6 @@ const Footer = class extends React.Component {
                     <li>
                       <Link to="/" className="navbar-item">
                         Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Blog
                       </Link>
                     </li>
                   </ul>
