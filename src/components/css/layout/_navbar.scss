@@ -1,0 +1,13 @@
+.navbar {
+  padding: 30px 0;
+  background-color: #000;
+}
+
+.navbar__inner {
+  max-width: $max-width;
+  margin: auto;
+}
+
+.navbar__list-link {
+  color: #fff;
+}

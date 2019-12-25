@@ -4,23 +4,15 @@ import { Link } from 'gatsby'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-            </div>
-          </div>
+      <footer className="footer">
+        <div className="footer__inner">
+          <ul className="footer__list">
+            <li className="footer__list-item">
+              <Link to="/" className="footer__list-link">
+                Home
+              </Link>
+            </li>
+          </ul>
         </div>
       </footer>
     )
