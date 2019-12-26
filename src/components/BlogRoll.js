@@ -16,7 +16,7 @@ class BlogRoll extends React.Component {
               className="blogroll__article"
               key={post.id}
             >
-              <header class="blogroll__header">
+              <header className="blogroll__header">
                 {post.frontmatter.featuredimage ? (
                   <div className="blogroll__thumbnail">
                     <PreviewCompatibleImage

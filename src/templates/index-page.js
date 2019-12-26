@@ -8,8 +8,8 @@ import BlogRoll from '../components/BlogRoll'
 export const IndexPageTemplate = ({
   title
 }) => (
-  <div class="index">
-    <h1 class="index__title">{title}</h1>
+  <div className="index">
+    <h1 className="index__title">{title}</h1>
     <div className="index__blog">
       <BlogRoll />
     </div>
