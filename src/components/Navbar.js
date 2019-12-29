@@ -2,10 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <nav
